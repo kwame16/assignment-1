@@ -16,6 +16,7 @@ nav {
 
 section {
     background: #ebebeb;
+    width: 495px;
 }
 
 aside {
@@ -29,4 +30,14 @@ footer {
 article {
     color: #ebebeb;
     background: #777777;
+}
+
+h1 {
+    color: #777777;
+    background: #ebebeb;
+}
+
+p {
+    color: #777777;
+    background: #ebebeb;
 }
