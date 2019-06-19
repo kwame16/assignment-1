@@ -3,17 +3,29 @@ body {
     color: #777777;
     background: #777777;
     width: 960px;
-    font-size: 18px
+    font-size: 18px;
+    margin: 0 auto;
 }
 
 header {
     background: #ebebeb;
     text-align: center;
+    padding: 20px;
+    margin: 5px;
+    width: 960px;
 }
+
 
 nav {
     background: #ebebeb;
     text-align: center;
+    padding: 20px;
+    margin: 5px;
+    width: 960px;
+}
+
+.container {
+    position: relative;
 }
 
 #main-bio {
@@ -21,13 +33,21 @@ nav {
     width: 495px;
     float: left;
     text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
 }
 
 aside {
-    clear: both;
+    /* position: absolute; */
+    width: 43%;
+    /* clear: both; */
     overflow: auto;
     background: #ebebeb;
-    float: right;
+    right: 0px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10px;
 }
 
 .clearfix::after{
@@ -39,7 +59,28 @@ footer {
     clear: both;
     overflow: auto;
     background: #ebebeb;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
     
+}
+
+#box-1 {
+    background-color:#ebebeb;
+    color: #777777;
+    margin: 5px;
+    padding: 15px;
+    border:solid #777777;
+    /* border-width: 15px; */
+}
+
+#box-2 {
+    background-color: #ebebeb;
+    color: #777777;
+    margin: 5px;
+    padding: 15px;
+    border: solid #777777;
+    /* border-width: 15px; */
 }
 
 article {
@@ -48,7 +89,7 @@ article {
     text-align: center;
     float: center;
     margin: 10px;
-    padding: 10px 7px 5px 5px;
+    padding: 10px ;
     
 
 }
