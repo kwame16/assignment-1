@@ -8,28 +8,49 @@ body {
 
 header {
     background: #ebebeb;
+    text-align: center;
 }
 
 nav {
     background: #ebebeb;
+    text-align: center;
 }
 
-section {
+#main-bio {
     background: #ebebeb;
     width: 495px;
+    float: left;
+    text-align: center;
 }
 
 aside {
+    clear: both;
+    overflow: auto;
     background: #ebebeb;
+    float: right;
 }
 
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 footer {
+    clear: both;
+    overflow: auto;
     background: #ebebeb;
+    
 }
 
 article {
     color: #ebebeb;
     background: #777777;
+    text-align: center;
+    float: center;
+    margin: 10px;
+    padding: 10px 7px 5px 5px;
+    
+
 }
 
 h1 {
@@ -40,4 +61,8 @@ h1 {
 p {
     color: #777777;
     background: #ebebeb;
+    text-align: center;
+}
+h4 {
+    text-align: center;
 }
