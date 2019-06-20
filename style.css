@@ -39,15 +39,16 @@ nav {
 }
 
 aside {
-    /* position: absolute; */
+    position: absolute;
     width: 43%;
-    /* clear: both; */
+    clear: both;
     overflow: auto;
     background: #ebebeb;
     right: 0px;
     padding: 20px;
     text-align: center;
     margin-left: 10px;
+    
 }
 
 .clearfix::after{
